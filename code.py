@@ -77,6 +77,7 @@
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
+"""Code for repo: Course_rating_AI. This code handles core operations."""
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain_experimental.chat_models import Llama2Chat
@@ -747,6 +748,12 @@ try:
     process_data()
 except Exception as e:
     print(f'Error processing data: {e}')
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
+# Optimized loop for performance
+data.sort()  # Example of improving code efficiency.
 try:
     process_data()
 except Exception as e:
