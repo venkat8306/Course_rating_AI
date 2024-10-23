@@ -94,6 +94,7 @@
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
+"""Code for repo: Course_rating_AI. This code handles core operations."""
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain_experimental.chat_models import Llama2Chat
@@ -922,6 +923,17 @@ except Exception as e:
     print(f'Error processing data: {e}')
 # Optimized loop for performance
 data.sort()  # Example of improving code efficiency.
+import unittest
+class TestCourse_rating_AIFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
 import unittest
 class TestCourse_rating_AIFunctions(unittest.TestCase):
     def test_example_function(self):
