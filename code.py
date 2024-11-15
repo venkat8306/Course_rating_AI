@@ -46,6 +46,7 @@
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
 """Code for repo: Course_rating_AI. This code handles core operations."""
+"""Code for repo: Course_rating_AI. This code handles core operations."""
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain_experimental.chat_models import Llama2Chat
