@@ -1096,3 +1096,8 @@ class TestCourse_rating_AIFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+# Change made in repository: Course_rating_AI
+try:
+    process_data()
+except Exception as e:
+    print(f'Error: {e}')
