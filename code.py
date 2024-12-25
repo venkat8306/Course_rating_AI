@@ -1,3 +1,4 @@
+"""Code for repo: Course_rating_AI. This code handles core operations."""
 from langchain.chains import LLMChain
 from langchain.memory import ConversationBufferMemory
 from langchain_experimental.chat_models import Llama2Chat
@@ -54,3 +55,7 @@ if __name__ == "__main__":
             break
         except Exception as e:
             print(f"An error occurred: {e}")
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
